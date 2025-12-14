@@ -1,6 +1,6 @@
 # University Database ER Diagram (Mermaid)
 
-This project demonstrates the design and visualisation of a **University Database Entity–Relationship (ER) Diagram** using **Mermaid ER syntax**. The ER diagram models core academic entities such as schools, departments, courses, professors, students, and enrollments, along with their relationships.
+This project demonstrates the design and visualisation of a **University Database ER-Diagram** using **Mermaid ER syntax**. The ER diagram models core academic entities such as schools, departments, courses, professors, students, and enrollments, along with their relationships.
 The Mermaid code is rendered using an online Mermaid-compatible ER diagram visualisation website.
 
 ---
@@ -16,7 +16,8 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 ## 🎥 Demo Video
 
 > **Demo Video Placeholder**
-
+[demo video 1](demo/DB-Output1-demo.mp4)
+[demo video 2](demo/demo-video2.mp4)
 ---
 
 ## 🧱 Entities Modeled
@@ -47,32 +48,23 @@ The ER diagram includes the following entities:
 
 ---
 
-## 🚀 Step-by-Step Instructions
+## Step-by-Step Instructions
 
 ### Step 1: Copy the Mermaid ER Code from either llama3 or gemma2:2b
-
-
----
 
 ### Step 2: Open a Mermaid ER Diagram Website
 
 Open any website that supports Mermaid ER diagrams (for example, a Mermaid live editor or ER diagram visualizer).
-
----
 
 ### Step 3: Paste the Code
 
 * Paste the copied Mermaid code into the editor panel
 * Ensure the diagram type is set to **ER Diagram** or supports `erDiagram`
 
----
-
 ### Step 4: Render the Diagram
 
 * Click **Render / Preview / Generate Diagram**
 * The ER diagram with entities and relationships should appear visually
-
----
 
 ### Step 5: Verify Relationships
 
@@ -82,6 +74,5 @@ Check that:
 * `ENROLL` appears as an associative entity
 * `CLASS_SECTION` is used instead of `CLASS` (to avoid Mermaid keyword conflicts)
 
----
 
 
