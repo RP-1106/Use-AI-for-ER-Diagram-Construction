@@ -14,8 +14,6 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 ---
 
 ## 🎥 Demo Video
-
-> **Demo Video Placeholder**
 [demo video 1](demo/DB-Output1-demo.mp4)
 [demo video 2](demo/demo-video2.mp4)
 ---
