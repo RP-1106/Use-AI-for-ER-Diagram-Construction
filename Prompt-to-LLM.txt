@@ -1,0 +1,36 @@
+You are a database design expert.
+I am giving you an Entity-Relationship Diagram (ERD) of a Tiny College database.
+Your task is to generate accurate Mermaid ER diagram code (erDiagram) that represents this database.
+
+Instructions
+Use erDiagram syntax in Mermaid.
+Clearly define entities, primary keys (PK), and foreign keys (FK).
+Correctly represent relationships and cardinalities.
+Use meaningful relationship labels where applicable.
+Output only the Mermaid code, no explanations.
+
+Database Description
+The database models a college with professors, students, departments, courses, classes, rooms, buildings, and enrollments.
+Entities and Attributes
+PROFESSOR = {PK: PROF_NUM,PROF_CODE,PROF_SPECIALTY,PROF_RANK,PROF_LNAME,PROF_FNAME,PROF_INITIAL,PROF_EMAIL}
+SCHOOL = {PK: SCHOOL_CODE,SCHOOL_NAME,FK: PROF_NUM (Dean)}
+DEPARTMENT = {PK: DEPT_CODE,DEPT_NAME,FK: SCHOOL_CODE,FK: PROF_NUM (Chair)}
+STUDENT = {PK: STU_NUM,STU_LNAME,STU_FNAME,STU_INITIAL,STU_EMAIL,FK: DEPT_CODE,FK: PROF_NUM (Advisor)}
+COURSE = {PK: CRS_CODE,CRS_TITLE,CRS_DESCRIPTION,CRS_CREDIT,FK: DEPT_CODE}
+CLASS = {PK: CLASS_CODE,CLASS_SECTION,CLASS_TIME,FK: CRS_CODE,FK: PROF_NUM,FK: ROOM_CODE}
+ENROLL = {PK, FK: CLASS_CODE, PK, FK: STU_NUM,ENROLL_DATE,ENROLL_GRADE}
+ROOM = {PK: ROOM_CODE,ROOM_TYPE,FK: BLDG_CODE}
+BUILDING = {PK: BLDG_CODE,BLDG_NAME,BLDG_LOCATION}
+
+Relationships
+A school employs professors and operates departments
+A professor is dean of a school (optional)
+A professor chairs a department
+A department offers courses
+A professor teaches classes
+A course generates classes
+A student enrolls in classes (many-to-many via ENROLL)
+A student is advised by a professor
+A class is held in a room
+A room is located in a building
+Generate the complete Mermaid ER diagram code representing this database.
