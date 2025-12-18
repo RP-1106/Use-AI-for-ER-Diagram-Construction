@@ -1,11 +1,10 @@
 ## University Database ER Diagram (Mermaid)
 
-### Demo Video
 ![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
 
-[Prompting the LLMs](https://youtu.be/hyHH51993_k)
+[Demo Video: Prompting the LLMs](https://youtu.be/hyHH51993_k)
 
-[ER-Diagram_Mermaid-Website](demo/demo-video2.mp4)
+[Demo Video: Mermaid-Code_to_ER-Diagram](demo/demo-video2.mp4)
 
 ### Output
 ![Gemma-Llama-Thumbnail](Output.png)
