@@ -10,7 +10,7 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 * To understand cardinalities, associative entities, and role-based relationships
 
 ### 🎥 Demo Video
-![Sales-Analyser-Thumbnail](https://github.com/user-attachments/assets/d910fdae-738f-4c41-a6b5-480d427f90a0)
+![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
 [demo video 1](https://youtu.be/hyHH51993_k)
 
 [demo video 2](demo/demo-video2.mp4)
