@@ -3,26 +3,20 @@
 This project demonstrates the design and visualisation of a **University Database ER-Diagram** using **Mermaid ER syntax**. The ER diagram models core academic entities such as schools, departments, courses, professors, students, and enrollments, along with their relationships.
 The Mermaid code is rendered using an online Mermaid-compatible ER diagram visualisation website.
 
----
-
 ## 📌 Objective
 
 * To model a realistic **university academic database** using ER concepts
 * To visualize entity relationships using **Mermaid ER diagrams**
 * To understand cardinalities, associative entities, and role-based relationships
 
----
-
 ## 🎥 Demo Video
 [demo video 1](demo/DB-Output1-demo.mp4)
 
 [demo video 2](demo/demo-video2.mp4)
----
 
 ## 🧱 Entities Modeled
 
 The ER diagram includes the following entities:
-
 * **SCHOOL** – Represents a university or academic school
 * **DEPARTMENT** – Academic departments within a school
 * **COURSE** – Courses offered by departments
@@ -44,8 +38,6 @@ The ER diagram includes the following entities:
 * A **student enrolls in class sections** (via ENROLL)
 * A **school has a dean** and **departments have chairs** (both professors)
 * **Buildings contain rooms**, and **rooms host class sections**
-
----
 
 ## Step-by-Step Instructions
 
