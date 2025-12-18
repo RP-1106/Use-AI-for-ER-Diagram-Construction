@@ -41,8 +41,9 @@ The ER diagram includes the following entities:
 
 ### Step-by-Step Instructions
 #### Step 1: Copy the Mermaid ER Code from either llama3 or gemma2:2b
+* Whichever is closer to the actual mermaid code
 #### Step 2: Open a Mermaid ER Diagram Website
-Open any website that supports Mermaid ER diagrams (for example, a Mermaid live editor or ER diagram visualizer).
+* Open any website that supports Mermaid ER diagrams (for example, a Mermaid live editor or ER diagram visualizer).
 #### Step 3: Paste the Code
 * Paste the copied Mermaid code into the editor panel
 * Ensure the diagram type is set to **ER Diagram** or supports `erDiagram`
@@ -50,7 +51,6 @@ Open any website that supports Mermaid ER diagrams (for example, a Mermaid live 
 * Click **Render / Preview / Generate Diagram**
 * The ER diagram with entities and relationships should appear visually
 #### Step 5: Verify Relationships
-Check that:
 * Cardinalities (`||`, `o{`) are rendered correctly
 * `ENROLL` appears as an associative entity
 * `CLASS_SECTION` is used instead of `CLASS` (to avoid Mermaid keyword conflicts)
