@@ -17,7 +17,7 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 [ER-Diagram_Mermaid-Website](demo/demo-video2.mp4)
 
 ### Output
-![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
+![Gemma-Llama-Thumbnail](Output.png)
 
 ### 🧱 Entities Modelled
 
