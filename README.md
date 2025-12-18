@@ -11,11 +11,15 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 
 ### 🎥 Demo Video
 ![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
-[demo video 1](https://youtu.be/hyHH51993_k)
 
-[demo video 2](demo/demo-video2.mp4)
+[Prompting the LLMs](https://youtu.be/hyHH51993_k)
 
-### 🧱 Entities Modeled
+[ER-Diagram_Mermaid-Website](demo/demo-video2.mp4)
+
+### Output
+![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
+
+### 🧱 Entities Modelled
 
 The ER diagram includes the following entities:
 * **SCHOOL** – Represents a university or academic school
