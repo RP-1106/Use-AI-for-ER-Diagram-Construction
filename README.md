@@ -1,15 +1,14 @@
-# University Database ER Diagram (Mermaid)
+## University Database ER Diagram (Mermaid)
 
 This project demonstrates the design and visualisation of a **University Database ER-Diagram** using **Mermaid ER syntax**. The ER diagram models core academic entities such as schools, departments, courses, professors, students, and enrollments, along with their relationships.
 The Mermaid code is rendered using an online Mermaid-compatible ER diagram visualisation website.
 
-### 📌 Objective
-
+### Objective
 * To model a realistic **university academic database** using ER concepts
 * To visualize entity relationships using **Mermaid ER diagrams**
 * To understand cardinalities, associative entities, and role-based relationships
 
-### 🎥 Demo Video
+### Demo Video
 ![Gemma-Llama-Thumbnail](demo/Thumbnail1.png)
 
 [Prompting the LLMs](https://youtu.be/hyHH51993_k)
@@ -19,8 +18,7 @@ The Mermaid code is rendered using an online Mermaid-compatible ER diagram visua
 ### Output
 ![Gemma-Llama-Thumbnail](Output.png)
 
-### 🧱 Entities Modelled
-
+### Entities Modelled
 The ER diagram includes the following entities:
 * **SCHOOL** – Represents a university or academic school
 * **DEPARTMENT** – Academic departments within a school
@@ -32,8 +30,7 @@ The ER diagram includes the following entities:
 * **BUILDING** – Campus buildings
 * **ROOM** – Rooms within buildings
 
-### 🔗 Key Relationships
-
+### Key Relationships
 * A **school operates multiple departments**
 * A **department offers multiple courses**
 * A **course generates multiple class sections**
@@ -43,7 +40,6 @@ The ER diagram includes the following entities:
 * **Buildings contain rooms**, and **rooms host class sections**
 
 ### Step-by-Step Instructions
-
 #### Step 1: Copy the Mermaid ER Code from either llama3 or gemma2:2b
 
 #### Step 2: Open a Mermaid ER Diagram Website
